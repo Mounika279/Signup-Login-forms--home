@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+</head>
+<body>
+<fieldset>
+    <legend><b>Login form</b></legend>
+    <form action="./home.html">
+      
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" name="mail"><br><br>
+        <label for="pwd">Password:</label>
+        <input type="password" id="pwd" name="pwd"><br><br>
+        <input type="submit">
+
+<button formaction="./signup.html">Create new account</button>
+    </form>
+</fieldset>
+</body>
+</html>
